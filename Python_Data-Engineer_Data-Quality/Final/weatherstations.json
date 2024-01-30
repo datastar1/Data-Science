@@ -1,0 +1,45 @@
+{
+  "Stadt":
+  [
+    {
+      "Name": "Stuttgart",
+      "Longitute": 48.6833,
+      "Latitude": 9.2167
+    },
+    {
+      "Name": "Bremen",
+      "Longitute": 53.05,
+      "Latitude": 8.8
+    },
+    {
+      "Name": "Mannheim",
+      "Longitute": 49.52,
+      "Latitude": 8.55
+    },
+    {
+      "Name": "München",
+      "Longitute": 48.1333,
+      "Latitude": 11.55
+    },
+    {
+      "Name": "Mainz",
+      "Longitute": 49.9656,
+      "Latitude": 8.2139
+    },
+    {
+      "Name": "Leipzig",
+      "Longitute": 51.3167,
+      "Latitude": 12.4167
+    },
+    {
+      "Name": "Berlin",
+      "Longitute": 52.4667,
+      "Latitude": 13.4
+    },
+    {
+      "Name": "Dresden",
+      "Longitute": 51.51333,
+      "Latitude": 13.75
+    }
+  ]
+}
