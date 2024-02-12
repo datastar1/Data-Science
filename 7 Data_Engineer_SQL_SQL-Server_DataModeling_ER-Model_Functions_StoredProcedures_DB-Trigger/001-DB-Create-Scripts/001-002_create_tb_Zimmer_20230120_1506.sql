@@ -1,0 +1,22 @@
+USE [Hotel]
+GO
+
+/****** Object:  Table [dbo].[tb_Zimmer]    Script Date: 20.01.2023 15:07:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tb_Zimmer](
+	[ZimmerID] [int] IDENTITY(1,1) NOT NULL,
+	[Nummer] [smallint] NOT NULL,
+	[ZiKategorieID] [int] NOT NULL,
+ CONSTRAINT [PK_tb_Zimmer] PRIMARY KEY CLUSTERED 
+(
+	[ZimmerID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
